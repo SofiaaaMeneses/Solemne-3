@@ -1,0 +1,9 @@
+import streamlit as st
+import pandas as pd
+
+df = pd.read_csv('Delivery.csv')
+st.title("restaurantes más populares por zonas")
+
+
+
+#AAAsofia
